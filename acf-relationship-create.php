@@ -2,23 +2,23 @@
 /*
 Plugin Name: Quick and easy Post creation for ACF Relationship Fields PRO
 Description: Quick & Easy post creation on your Advanced Custom Fields (ACF) Relationship Fields (PRO version)
-Author: Bazalt
-Version: 3.2.2
+Author: Bazalt / 1pix
+Version: 3.3.0
 Author URI: http://bazalt.fr/
 Text Domain: acf-relationship-create
 Domain Path: /languages/
 */
 
-if ( ! class_exists( 'ACF_Relationship_Create_Pro' ) ) :
+if ( ! class_exists( 'ACF_Relationship_Create' ) ) :
 
-    class ACF_Relationship_Create_Pro
+    class ACF_Relationship_Create
     {
 
         private static $_instance;
 
         /**
          * Singleton pattern
-         * @return ACF_Relationship_Create_Pro
+         * @return ACF_Relationship_Create
          */
         public static function getInstance() {
             if( self::$_instance instanceof self ) return self::$_instance;
@@ -388,5 +388,5 @@ if ( ! class_exists( 'ACF_Relationship_Create_Pro' ) ) :
         }
     }
 
-    ACF_Relationship_Create_Pro::getInstance();
+    ACF_Relationship_Create::getInstance();
 endif;
