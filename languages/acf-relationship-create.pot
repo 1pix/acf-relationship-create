@@ -1,0 +1,56 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-09-13 08:30+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: \n"
+"Language: \n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Loco - https://localise.biz/"
+
+#: acf-relationship-create-pro.php:100
+msgid ""
+"You are using the free version of Advanced Custom Fields plugin. You have to "
+"downgrade `Advanced Custom Fields Relationship Create` plugin <a href=\"%s\" "
+"target=\"_blank\">to the FREE version</a> too!"
+msgstr ""
+
+#: acf-relationship-create-pro.php:221
+msgid "(No title)"
+msgstr ""
+
+#: acf-relationship-create-pro.php:299
+msgid "Create"
+msgstr ""
+
+#: acf-relationship-create-pro.php:319
+msgid "Create new %s"
+msgstr ""
+
+#: acf-relationship-create-pro.php:342
+msgid "Display a link to create content on the fly?"
+msgstr ""
+
+#. Name of the plugin
+msgid "Quick and easy Post creation for ACF Relationship Fields PRO"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Quick & Easy post creation on your Advanced Custom Fields (ACF) Relationship "
+"Fields (PRO version)"
+msgstr ""
+
+#. Author of the plugin
+msgid "Bazalt"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "http://bazalt.fr/"
+msgstr ""
