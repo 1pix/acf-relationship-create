@@ -3,7 +3,7 @@ Contributors: cyrilbatillat
 Donate link: http://bazalt.fr
 Tags:  acf, advanced custom fields, add-on, relationship, field, post creation, shortcut, workflow, admin, administration, wordpress
 Requires at least: 4.5
-Tested up to: 4.9.7
+Tested up to: 5.4.1
 Stable tag: trunk
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
@@ -46,6 +46,8 @@ No. This plugin is only compatible with ACF PRO. If you are using ACF free plugi
 
 
 == Changelog ==
+= 3.3.0 = 2020-0507
+* Hot fixes, now work with ACF 5.8.9 and WP 5.4.1
 
 = 3.2.2 = 2019-07-19
 * Remove error_log debug messages
