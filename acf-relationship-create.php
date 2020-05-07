@@ -223,12 +223,13 @@ if (!class_exists('ACF_Relationship_Create')) :
         {
             $include_in = array('post.php');
 
-            // Check if Gutenberg is enabled on this post type.
+            // NOTE: @1px : buggy ...
+            //Check if Gutenberg is enabled on this post type.
             // In this only case, post-new.php hook must be included.
-            $current_screen = get_current_screen();
-            if (!empty($current_screen->post_type) && $this->isGutenbergEnabledOnCPT($current_screen->post_type)) {
-                $include_in[] = 'post-new.php';
-            }
+            //$current_screen = get_current_screen();
+            // if (!empty($current_screen->post_type) && $this->isGutenbergEnabledOnCPT($current_screen->post_type)) {
+            //     $include_in[] = 'post-new.php';
+            // }
 
             if (in_array($hook, $include_in)) {
                 wp_enqueue_script('acf-relationship-create-pro-iframe');
